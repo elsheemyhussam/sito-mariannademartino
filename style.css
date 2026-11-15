@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0}body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#6b6475;background:#fff;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit}.w{max-width:1100px;margin:0 auto;padding:0 28px;width:100%}
+header{border-bottom:1px solid #eee8f0}header .w{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:22px 28px}
+.logo{font-family:Georgia,serif;color:#3a3345;text-decoration:none;font-size:1.15rem;letter-spacing:.03em;text-transform:uppercase}.logo small{display:block;font:600 .65rem system-ui;letter-spacing:.2em;color:#7a6f85}
+nav a{margin-left:20px;text-decoration:none;color:#8b8494}nav a.on,nav a:hover{color:#3a3345}
+main{flex:1;padding:56px 0}.k{font:600 .72rem system-ui;letter-spacing:.2em;text-transform:uppercase;color:#7a6f85;margin-bottom:14px}
+h1{font-family:Georgia,serif;font-weight:400;color:#3a3345;font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.15;margin-bottom:24px}h2{font:600 1rem system-ui;color:#3a3345;margin:22px 0 4px}
+p{margin-bottom:14px;max-width:62ch}.g{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.arch{width:100%;max-width:420px;aspect-ratio:4/5;object-fit:cover;border-radius:999px 999px 28px 28px;display:block;margin:0 auto}
+.btn{display:inline-block;background:#3a3345;color:#fff;padding:14px 30px;border-radius:10px;text-decoration:none;font-weight:600;margin-top:10px}
+.card{background:#f6eff6;border-radius:24px;padding:32px}.card dt{font:600 .7rem system-ui;letter-spacing:.2em;text-transform:uppercase;color:#7a6f85;margin-top:16px}.card dd{color:#3a3345;margin:2px 0 0;word-break:break-word}
+.q{background:#e9dfec;border-radius:28px;padding:56px 32px;text-align:center;font:italic 1.5rem/1.5 Georgia,serif;color:#fff}
+footer{border-top:1px solid #eee8f0;font-size:.75rem;letter-spacing:.06em;color:#7a6f85}footer .w{padding:20px 28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media(max-width:800px){.g{grid-template-columns:1fr;gap:32px}nav a{margin:0 14px 0 0}}
